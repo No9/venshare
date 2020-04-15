@@ -5,8 +5,8 @@ module.exports = {
   siteTitle: "venshare", // Site title.
   siteTitleAlt: "A log of tech doodles", // Alternative site title for SEO.
   siteLogo:
-    "https://no9.github.io/blog/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://no9.github.io", // Domain of your website without pathPrefix.
+    "https://venshare.com/images/observe.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteUrl: "https://venshare.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "A log of tech doodles", // Website description used for RSS feeds/meta description tag.
@@ -14,10 +14,10 @@ module.exports = {
     "images/fog.png", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssAuthor: "Casper User", // The author name used in the RSS file
+  siteRssAuthor: "Anton Whalley", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
-  sitePaginationLimit: 10, // The max number of posts per page.
-  googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
+  sitePaginationLimit: 5, // The max number of posts per page.
+  googleAnalyticsID: "UA-23153005-3", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
     "https://github.com/No9/",
