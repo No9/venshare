@@ -10,7 +10,7 @@ tags:
   - nodejs
   - fastify
   - loopback
-cover: "images/loop-fastify.png"
+cover: "https://venshare.com/images/loop-fastify.png"
 ---
 
 ### Introduction
