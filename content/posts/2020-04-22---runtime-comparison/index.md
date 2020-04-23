@@ -13,7 +13,7 @@ tags:
   - openshift
   - appsody
   - tide
-cover: "./images/green-openshift.jpg"
+cover: "https://venshare.com/images/green-openshift.jpg"
 ---
 
 Recently I have been working with [Appsody](https://appsody.dev/) an [open source](https://github.com/appsody/) development and operations accelerator for containers.
