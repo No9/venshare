@@ -7,6 +7,7 @@ author: "anton"
 category: "tech"
 tags:
   - programming
+  - koreio
 cover: "images/include.png"
 ---
 

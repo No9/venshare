@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://venshare.com/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://venshare.com/about/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/2/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/rapidly-extend-a-fastify-app-with-crud-apis-from-loopback/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/author/anton/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/debugging-rust-with-vscode-on-freebsd/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/post-mortem-debugging-for-node-js-on-freebsd/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/vue-js-with-browserify-on-bluemix/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/kore-io-on-bluemix-2/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://venshare.com/3/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/modular-c-apis-with-kore-io-and-dotc/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/chromiumify-1/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/chromiumify-2/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/dtrace-flamegraphs-for-freebsd-and-node-js/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/sinopia-on-open-indiana/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://venshare.com/node-js-on-open-indiana/</loc>
+  <lastmod>2020-04-22T23:33:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
