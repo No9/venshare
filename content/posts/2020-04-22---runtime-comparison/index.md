@@ -65,9 +65,9 @@ The consumption metrics charts and the new OpenShift 4.3 UI are in the [(ScreenS
 This comparison would suggest that Rust is an order of magnitude more efficient than Node.js or Java.
 > It's not surprising Rust is more efficient
 
-It's not surprising Rust is more efficient as it's natively compiled but I hadn't considered that there would be such a difference.
+It's not surprising Rust is more efficient as it's natively compiled but I hadn't considered that there would be such a difference given that none of the applications were preforming work.
 
-Given there may be a *slight* lack of rigour in the data and methodology above I went to [surf the net](https://en.wikipedia.org/wiki/Jean_Armour_Polly) to see if there has been any formal research into the area of green applications.
+Given there may be a *slight lack of rigour* in the data and methodology above I went to [surf the net](https://en.wikipedia.org/wiki/Jean_Armour_Polly) to see if there has been any formal research into the area of green applications.
 
 I was delighted to discover a group called the [Green Software Lab](https://greenlab.di.uminho.pt/) who do a lot of work in this area. Specifically they published a [paper](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf) that considers this topic. 
 
