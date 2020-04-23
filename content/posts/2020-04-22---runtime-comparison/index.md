@@ -87,7 +87,7 @@ Green applications are a new topic for me but I am going to continue reading up 
 ### <a name="screenshots"></a>Screen Shots
 
 **java**
-![java](./images/utilization-rust-tide.png)
+![java](./images/utilization-java-app.png)
 
 **node.js**
 ![node.js](./images/utilization-node-express.png)
