@@ -15,7 +15,7 @@ tags:
   - tide
 cover: "https://venshare.com/images/green-openshift.jpg"
 ---
-
+<div class="author-meta"><span class="author-link icon-link"><a href="https://www.gerhard-richter.com/en/art/paintings/abstracts/abstracts-19901994-31/red-blue-green-8049/?p=1">Image by Gerhard Richter 1994</a></span></div>
 Recently I have been working with [Appsody](https://appsody.dev/) an [open source](https://github.com/appsody/) development and operations accelerator for containers.
 
 Appsody is targeting a classic problem in software adoption.
