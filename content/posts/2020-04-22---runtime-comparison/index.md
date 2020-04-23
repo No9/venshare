@@ -37,7 +37,10 @@ Working with appsody is nice and simple so I also spun up the [node.js express s
 
 Both runtimes went very smoothly from zero to deploy in minutes but as I investigated the deployments I was struck that the resource consumption between the more established frameworks and Rust-Tide in an idle state. 
 
+> Example Pod Overview
+
 ![chart](images/podoverview.jpg)
+
 The consumption metrics charts and the new OpenShift 4.3 UI are in the [(ScreenShots Below)](#a-namescreenshotsascreen-shots) but I have summarised them in this table.
 
 <table>
@@ -74,8 +77,8 @@ I was delighted to discover a group called the [Green Software Lab](https://gree
 
 The [results are interesting](https://sites.google.com/view/energy-efficiency-languages/results?authuser=0#h.p_nggWE5Z-iDZ0) with Rust closely following C in terms of energy efficiency and Java placing respectably too. It is should also be noted that python one of the worlds [most popular runtimes](https://blog.newrelic.com/technology/most-popular-programming-languages-of-2019/) places very poorly.
 
-Reflecting on the results compared to the initial findings from the OpenShift services I noted that Javascript placed lower than Java.
-This may be caused by the tests being based on CPU intensive tasks and not on I/O based tasks that Javascript is perhaps better suited for. 
+Reflecting more on the results I noted that Javascript placed lower than Java. 
+This likely due to the tests being based on CPU intensive tasks and not on I/O based tasks that Javascript is perhaps better suited for. 
 
 As a practioner who also cares about energy efficiency it would be useful to see this type of analysis performed against more life like workloads such as those available on [realworld.io](https://realworld.io/).
 
