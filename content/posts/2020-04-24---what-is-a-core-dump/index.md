@@ -7,7 +7,7 @@ author: "anton"
 category: "tech"
 tags:
   - programming
-  - olly
+  - o11y
   - coredump
 cover: "https://venshare.com/images/mag-core.jpg"
 ---
