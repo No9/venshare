@@ -7,9 +7,10 @@ author: "anton"
 category: "tech"
 tags:
   - programming
-  - olly
+  - o11y
   - nodejs
   - freebsd
+  - coredump
 cover: "./images/post-mortem-freebsd.png"
 ---
 

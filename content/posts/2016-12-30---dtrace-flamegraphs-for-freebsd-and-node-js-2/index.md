@@ -9,7 +9,7 @@ tags:
   - programming
   - freebsd
   - nodejs
-  - olly
+  - o11y
 cover: "images/dtrace-freebsd-cover.png"
 ---
 
