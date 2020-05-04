@@ -41,11 +41,10 @@ A much more detailed text description is available [in this pdf](https://venshar
 
 A larger more detailed diagram is available [below](#elf-walkthrough) 
 
-> How are they generated?
+## How are they generated?
+To understand this flow from an application developers point of view you need to recall that a when a process starts the operating system creates a wrapper around the application code to provide consistent management whatever the actual program is doing. You don't have to explicitly handle the core dump in application code.
 
 ![core dump process](images/core-dump-process.png)
-
-To understand this flow from an application developers point of view you need to recall that a when a process starts the operating system creates a wrapper around the application code to provide consistent management whatever the actual program is doing. You don't have to explicitly handle the core dump in application code.
 
 1.  Typically a kernel event occours and the kernel [notifies the process of this event by signal](https://github.com/torvalds/linux/blob/b4f633221f0aeac102e463a4be46a643b2e3b819/kernel/signal.c#L2733). 
 
@@ -61,4 +60,5 @@ To understand this flow from an application developers point of view you need to
 
 There is a lot going in this picture but if you are working with ELF files and need a desk reminder
 This is a great tool by Ange_Albertini.
+
 ![ELF Walkthrough](images/ELF_Executable_and_Linkable_Format_diagram_by_Ange_Albertini.png)
