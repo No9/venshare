@@ -16,6 +16,7 @@ tags:
 cover: "https://venshare.com/images/green-openshift.jpg"
 ---
 <div class="author-meta"><span class="author-link icon-link"><a href="https://www.gerhard-richter.com/en/art/paintings/abstracts/abstracts-19901994-31/red-blue-green-8049/?p=1">Image by Gerhard Richter 1994</a></span></div>
+
 Recently I have been working with [Appsody](https://appsody.dev/) an [open source](https://github.com/appsody/) development and operations accelerator for containers.
 
 Appsody is targeting a classic problem in software adoption.
@@ -29,7 +30,7 @@ In short appsody allows you to create predefined and configured software [stacks
 So I thought I would take appsody and mix it up with another topic that I am intrested in - [simple but high preformance webserver development](https://venshare.com/tags/koreio).
 This led me to work on an [appsody stack](https://appsody.dev/docs/stacks/stacks-overview) for the async Rust HTTP framework [Tide](https://github.com/http-rs/tide). 
 
-More on the [Tide stack](https://github.com/No9/rust-tide) in [later posts](https://venshare.com/tags/tide) but today I got a baseline Tide implementation up and running on the recently announced [RedHat OpenShift 4.3 Kubernetes Service (ROKS)](https://cloud.ibm.com/kubernetes/catalog/about?platformType=openshift) on [IBM Cloud](https://www.ibm.com/account/reg/ie-en/signup?formid=urx-40971).
+The instructions for using the [Tide stack](https://github.com/No9/rust-tide) are in the [README](https://github.com/No9/rust-tide/blob/master/README.md) and I'll be diving into more in [later posts](https://venshare.com/tags/tide) but today I got a baseline Tide implementation up and running on the recently announced [RedHat OpenShift 4.3 Kubernetes Service (ROKS)](https://cloud.ibm.com/kubernetes/catalog/about?platformType=openshift) on [IBM Cloud](https://www.ibm.com/account/reg/ie-en/signup?formid=urx-40971).
 
 ![OpenShift](images/openshift.png)
 
@@ -71,9 +72,9 @@ As there may be a *"slight lack of rigour"* in the data and methodology above I 
 
 I was delighted to discover a group called the [Green Software Lab](https://greenlab.di.uminho.pt/) who do a lot of work in this area. Specifically they published a [paper](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf) that considers this topic. 
 
-> The Normalized Global Results:
+### The Normalized Global Results:
 
-![results are interesting](https://lh3.googleusercontent.com/SPs8fqv4jZJ8Vx0Q3vKw37px2OHHnJfBponnGTQ4OPssqGrAEx6taIhu43ZkxRy35KhfylEK9iKwShmr2spwxuRI3vF3IUCjiUuekk12OBmkVopwjNk=w1280)
+![results are interesting](images/global-results.png)
 
 The [results are interesting](https://sites.google.com/view/energy-efficiency-languages/results?authuser=0#h.p_nggWE5Z-iDZ0) with Rust closely following C in terms of energy efficiency and Java placing respectably too. It is should also be noted that python one of the worlds [most popular runtimes](https://blog.newrelic.com/technology/most-popular-programming-languages-of-2019/) places very poorly.
 
