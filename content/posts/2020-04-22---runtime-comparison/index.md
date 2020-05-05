@@ -1,5 +1,5 @@
 ---
-title: "Green on Red - Discovering Energy Efficient Containers with Appsody and OpenShift"
+title: "Green on Red - Discovering Energy Efficient Containers with Tide on Appsody"
 published: true
 date: "2020-04-22"
 slug: "runtime-overhead-on-openshift"
