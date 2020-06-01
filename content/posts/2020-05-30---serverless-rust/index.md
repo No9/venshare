@@ -37,11 +37,9 @@ Follow the [Installing Appsody](https://appsody.dev/docs/getting-started/install
 
 - [Anywhere - OpenShift](https://docs.openshift.com/container-platform/4.3/serverless/installing_serverless/installing-knative-serving.html)
 
-You should be able to use the apposdy build in any Knative environment if you already have one with your favourite cloud provider.
+You should also be able to use the apposdy build in any Knative environment if you already have one with your favourite cloud provider.
 
 ## Create Your Application
-
-### Scaffolding a Rust Tide Application using Appsody
 
 1. Open a terminal window.
 
@@ -100,9 +98,9 @@ You should be able to use the apposdy build in any Knative environment if you al
 
    ```
    Your Appsody project name has been set to `appsodyrusttide`
-
+   ``` 
    and
-
+   ```
    Successfully initialized Appsody project with the nodejs-loopback stack and the default template.
    ```
 
@@ -152,6 +150,7 @@ This is based on the [tide json example](https://github.com/http-rs/tide/blob/ma
     serde = "1.0.102"
     serde_json = "1.0.41"
     ```
+
 2. Now we will update `lib.rs` to read the environment variable and return a Cat struct to the user.
     ```rust
         use std::env;
@@ -177,14 +176,16 @@ This is based on the [tide json example](https://github.com/http-rs/tide/blob/ma
         }
     ```
 
-3. Once the code changes are complete you should be able to run the service with
+3. Once the code changes are complete you should be able to run the service with: 
     ```
-    $ appsody run
+    appsody run --docker-options "--env MY_NAME=tibbs"
     ```
+    where `--docker-options` passes the environment settings to the container
+
 4. The service should now be available on http://localhost:8000/ and if you open it in a browser it will now return.
     ```json
         {
-            "name" : "Not Provided"
+            "name" : "tibbs"
         }
     ```
 
@@ -196,9 +197,10 @@ Now we are ready to deploy your application
 
 ## Deploy Your Application
 
-This section will be split into 2 sections. The first will cover deploying to Knative on IBM Cloud. The second will cover a plain Knative deploy.
+This section will be split into 3 sections. The first will cover deploying to Knative on IBM Cloud. The second will cover a plain Knative deploy and the final one will cover a preconfigured OpenShift deployment
 
 ### Deploy the image to IBM Cloud 
+
     Ensure that the you have created a project for the service following [these instructions](https://cloud.ibm.com/docs/knative?topic=knative-manage-project#create-project-cli). 
 
     ```
@@ -231,6 +233,9 @@ This section will be split into 2 sections. The first will cover deploying to Kn
     ```
 
 ### Deploy to OpenShift
+
+1. Deploying to OpenShift is very straight forward and just requires: 
+
     ```
     $ appsody deploy --no-build --knative 
     ```
@@ -241,6 +246,9 @@ This section will be split into 2 sections. The first will cover deploying to Kn
 
     ```
     $ kn service list
+    
+    NAME      URL                                                             LATEST             AGE    CONDITIONS   READY   REASON
+    cartman   http://cartman.604053c7-2682.us-south.knative.appdomain.cloud   cartman-s4lwr5-3   2d7h   3 OK / 3     True    
     ```
 
 ## Summary
