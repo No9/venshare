@@ -6,7 +6,7 @@ slug: "serverless-rust"
 author: "anton"
 category: "tech"
 tutorial: "true"
-length: "20 mins"
+length: "30 mins"
 tags:
   - programming
   - serverless
@@ -37,7 +37,7 @@ Follow the [Installing Appsody](https://appsody.dev/docs/getting-started/install
 
 - [Anywhere - OpenShift](https://docs.openshift.com/container-platform/4.3/serverless/installing_serverless/installing-knative-serving.html)
 
-You should also be able to use the apposdy build in any Knative environment if you already have one with your favourite cloud provider.
+You should also be able to use the appsody build in any Knative environment if you already have one with your favourite cloud provider.
 
 ## Create Your Application
 
@@ -130,6 +130,14 @@ You should also be able to use the apposdy build in any Knative environment if y
    ![rust_tide_appsody_template_files_2.png](./resources/rusttide/rust_tide_appsody_template_files_2.png)
 
 9. This basic application only defines one API endpoint `'/'` in the file `src/lib.rs`
+    
+    ```rust
+    pub fn app() -> tide::Server<()> {    
+        let mut api = tide::new();
+        api.at("/").get(|_| async move { Ok("Hello, world!") });
+        api
+    }
+    ```
 
     The initial application is very similar to the [example application](https://github.com/http-rs/tide/blob/master/examples/hello.rs), but
     it's a library that is [loaded by a server](https://github.com/No9/rust-tide/blob/master/image/project/server/bin/src/main.rs#L5) at runtime to reduce the amount of developer noise.
@@ -190,9 +198,11 @@ This is based on the [tide json example](https://github.com/http-rs/tide/blob/ma
     ```
 
 5. Now we need to create a production build for the application. Make user you are logged into [docker hub](https://docs.docker.com/engine/reference/commandline/login/) before running it.
+
     ```
     $ appsody build -t YOUR_DOCKER_USER/appsodyrusttide:v1.0.0 --publish --knative
     ```
+
 Now we are ready to deploy your application
 
 ## Deploy Your Application
@@ -247,8 +257,17 @@ This section will be split into 3 sections. The first will cover deploying to Kn
     ```
     $ kn service list
     
-    NAME      URL                                                             LATEST             AGE    CONDITIONS   READY   REASON
-    cartman   http://cartman.604053c7-2682.us-south.knative.appdomain.cloud   cartman-s4lwr5-3   2d7h   3 OK / 3     True    
+    NAME              URL                                                                     LATEST                     AGE    CONDITIONS   READY   REASON
+    appsodyrusttide   http://appsodyrusttide.604053c7-2682.us-south.knative.appdomain.cloud   appsodyrusttide-s4lwr5-3   2d7h   3 OK / 3     True    
+    ```
+
+2. Test the URL returned in the list.
+
+    ```
+    $ curl http://appsodyrusttide.604053c7-2682.us-south.knative.appdomain.cloud 
+    {
+      "name":"tibbs"  
+    }
     ```
 
 ## Summary
