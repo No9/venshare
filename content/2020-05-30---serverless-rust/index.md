@@ -12,11 +12,12 @@ cover: ./preview.jpg
 excerpt: A step by step tutorial on to build and deploy a simple serverless app.
 ---
 
-# Serverless Rust with Tide, Appsody and Knative
-
 ## Introduction
 
+[This was originally posted in the Appsody Website](https://appsody.dev/tutorials/ServerlessRust/)
+
 This tutorial was created following feedback from the [Appsody on OpenShift](https://us02web.zoom.us/webinar/register/rec/WN__gBLTiqLQPiDRUkzdWWXZg?meetingId=2udFNa2s0HNOQ4nnz2LRW7A4A9jqX6a81nUe__Vcz0uAmF0Mz4Yqwn_obRPTpJuz&playId=usctfrr7_zw3GoGQ5gSDC_d6W9W5K_6s13RMrKdcnUa2AiVSN1ekbrREMOrwm00F71LWvXjt14jaBZaf&action=play&_x_zm_rtaid=5uZDfWV9RYy-J3EBnxrctQ.1590833520420.dc63c5dacd2e261a888c87d88a17324b&_x_zm_rhtaid=145) presentation and will cover how to scaffold, then build a serverless rust application with Appsody and deploy it into a knative environment.
+
 
 ## Prerequisites
 
