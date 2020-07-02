@@ -2,7 +2,7 @@
 title: "The Shifting Sands of Modern Application Development"
 published: false
 date: "2020-07-01"
-path: blog/serverless-rust
+path: blog/state-of-cloud-native
 author: "anton"
 category: "tech"
 tutorial: "true"
