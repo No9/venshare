@@ -7,7 +7,7 @@ module.exports = {
   author: 'anton',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: 'https://luigi-colella.disqus.com/embed.js',
+  disqusScript: 'https://venshare.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
