@@ -11,11 +11,11 @@ excerpt: A dive into what core dumps actually are and how they are made
 ---
 
 ## Introduction 
-This post is really a follow on to a [core dump post](https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/) that Julia Evans published a couple of years ago. 
+This post is a follow on to a [core dump post](https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/) that Julia Evans published a couple of years ago. 
 
 If you are looking to get and process a core dump I would highly recommend to [go and read her post](https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/). 
 
-This post is more of a background on what a core dump is, how they are made in the operating system with references to the relevant parts of the Linux code. 
+What follows is more of a background on what a core dump is, how they are made in the operating system with references to the relevant parts of the Linux code. 
 
 ## What are core dumps?
 
@@ -40,7 +40,7 @@ A much more detailed text description is available [in this pdf](https://venshar
 A larger more detailed diagram is available [below](#elf-walkthrough) 
 
 ## How are they generated?
-To understand this flow from an application developers point of view you need to recall that a when a process starts the operating system creates a wrapper around the application code to provide consistent management whatever the actual program is doing. You don't have to explicitly handle the core dump in application code.
+To understand this flow from an application developers point of view you need to recall that a when a process starts the operating system creates a wrapper around the application code to provide consistent management on top of the program. You don't have to explicitly handle the core dump in application code.
 
 ![core dump process](images/core-dump-process.png)
 
