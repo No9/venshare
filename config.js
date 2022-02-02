@@ -25,6 +25,10 @@ module.exports = {
       name: 'JavaScript',
       description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.'
     },
+    gitops: {
+      name: 'GitOps',
+      description: 'GitOps is a set of practices to manage infrastructure and application configurations using Git'
+    },
     nodejs: {
       name: 'Node.js',
       description: 'Node.js is a tool for executing JavaScript in a variety of environments.'
