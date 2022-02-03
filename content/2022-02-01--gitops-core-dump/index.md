@@ -56,15 +56,13 @@ A [quick hack session](https://github.com/IBM/core-dump-client/blob/main/knative
 
 An example of the PR is available here https://github.com/No9/segfaulter/pull/2
 
-This PR can then simply be opened with the gitpod url - https://gitpod.io/#https://github.com/No9/segfaulter/pull/2
+The PR can then simply be opened with the gitpod url - https://gitpod.io/#https://github.com/No9/segfaulter/pull/2
 
 ![The Github PR](images/gitfiles.png)
 
-If your interested in seeing this running then follow the deploy steps here - https://github.com/IBM/core-dump-client/tree/main/knative-event-processor#deployment 
+If your interested in seeing this running then follow the deploy steps here - https://github.com/IBM/core-dump-client/tree/main/knative-event-processor#deployment
 
-It requires and [IBM Cloud account] at the moment but you will be able to run the kubernetes cluster and the knative services for free.
-
-
+It requires an [IBM Cloud account](https://cloud.ibm.com/registration) at the moment but you will be able to run the kubernetes cluster and the knative services for free.
 
 ## Next Steps
 
